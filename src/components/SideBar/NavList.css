@@ -1,0 +1,27 @@
+.nav-list{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+}
+.nav{
+    text-decoration: none;
+    color:#fff;
+    padding:9px 8px;
+    border-radius: 12px;
+    display:flex;   
+    align-items: center; 
+    gap:12px;
+}
+.nav svg{
+    color: #64748b;
+}
+.active{
+    background-color: #223a6b;
+}
+@media (max-width: 768px) {
+  .nav-list{
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+}

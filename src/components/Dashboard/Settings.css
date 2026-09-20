@@ -1,0 +1,10 @@
+.settings-container{
+    display:flex;
+    gap:12px;
+    padding:8px;
+    border-radius: 50%;
+    color:rgb(95, 91, 91);
+}
+.settings-container:hover{
+    background-color: #eae5e5;
+}

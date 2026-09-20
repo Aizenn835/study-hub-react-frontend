@@ -1,0 +1,12 @@
+.progress-track{
+    width: 100%;
+    height: 6%;
+    background-color: #10203f;
+    overflow: hidden;  
+    margin-top:12px;
+}
+.progress-fill {
+  height: 100%;
+  background-color: #4a90d9;   
+  transition: width 0.3s ease; 
+}

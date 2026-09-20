@@ -1,0 +1,28 @@
+.dashboard-container{
+    width: 100%;
+    padding:15px 12px;
+    background-color: #fff;
+    height: 10vh;
+    border-bottom: 1px solid #d1d3d5;
+    gap:5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dsh-inner-container{
+    display:flex;
+    flex-direction: column;
+}
+.greetings-dashboard{
+    color:#223a6b;
+    font-size:1.75rem;
+}
+.date-dashboard{
+    color:#64748b;
+    font-size:0.85rem;
+}
+.dsh-settings{
+    display:flex;
+    gap:5px;
+    margin-right:12px;
+}
