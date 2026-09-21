@@ -1,0 +1,35 @@
+:root{
+    --secondary-font:'DM Sans';
+}
+
+.stats-container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+    justify-content: center;
+}
+.stats-value-container svg{
+    color:gray;
+}
+.stats-value-container p{
+    font-weight: 525;
+    font-size:0.75rem;
+}
+.stats-value-container{
+    display:flex;
+    gap:12px;
+}
+.subject-card-container{
+     height: 5vh;
+     width: 100%;
+}
+.stats-values{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stats-hours{
+    color:gray;
+    font-size:0.75rem;
+}

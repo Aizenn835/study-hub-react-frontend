@@ -19,7 +19,8 @@
 .supporting-info{
     text-transform: uppercase;
     font-size: 0.565rem;
-    color:rgb(167, 164, 164)
+    color:rgb(167, 164, 164);
+    letter-spacing: 0.5px;
 }
 .logo-container {
   width: 48px;

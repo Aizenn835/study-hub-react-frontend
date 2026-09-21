@@ -1,4 +1,10 @@
+:root{
+    --secondary-font:'DM Sans';
+}
+/* Lora , Outfit , 'JetBrains Mono' */
 body{
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: #ede3e3;
+  font-family: 'DM Sans' ,'Plus Jakarta Sans';
+  background-color: #f5f7fa;
+  overflow: none;
+
 }

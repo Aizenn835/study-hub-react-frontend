@@ -1,3 +1,6 @@
+:root{
+    --secondary-font:'DM Sans';
+}
 .dashboard-container{
     width: 100%;
     padding:15px 12px;
@@ -15,14 +18,24 @@
 }
 .greetings-dashboard{
     color:#223a6b;
-    font-size:1.75rem;
+    font-size:1.62rem;
+    font-family: var(--secondary-font);
 }
 .date-dashboard{
     color:#64748b;
-    font-size:0.85rem;
+    font-size:0.75rem;
+    font-family: var(--secondary-font);
 }
-.dsh-settings{
+.dsh-right{
     display:flex;
-    gap:5px;
-    margin-right:12px;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    width: 30%;
+}
+.search-bar{
+    width: 100%;
+}
+.settings-dsh{
+    display: flex;
 }

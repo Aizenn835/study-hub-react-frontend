@@ -1,0 +1,23 @@
+:root{
+    --secondary-font:'DM Sans';
+}
+.search-container{
+    display:flex;
+    align-items: center;
+    background-color: #f9f3f3;
+    padding:10px 12px;
+    gap:12px;
+    border-radius: 12px;
+}
+
+.search-container svg{
+    color:#696a6c;
+}
+.search-input{
+    color:rgb(41, 39, 39);
+    width: 100%;
+    outline: none;
+    border:none;
+    background-color: transparent;
+    font-family: var(--secondary-font);
+}
